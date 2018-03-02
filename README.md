@@ -17,7 +17,7 @@ locations of note.
 
 1. `$xmlFile` - the incoming xml data
 2. `$authFile` - the institutional author list (tab-delimited with the
-   format `IndexNum LastName FirstName MiddleName`)
+   format `IndexNum	LastName	FirstName	MiddleName`)
 3. `$outputFile` - the name of the xml file created by the script
 
 `$authFile` must be created as a tab-delimited file with each author
@@ -29,4 +29,4 @@ with and without diacritics (ñ, Ö, etc.), so variations of names with
 diacritics and an anglicized version will need to be added to the
 author list.  Each column should contain the following:
 
-    UniqueIndexNum  LastName    FirstName   MiddleName(optional)
+    UniqueIndexNum	LastName	FirstName	MiddleName(optional)
