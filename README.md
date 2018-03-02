@@ -15,11 +15,12 @@ following command
 In the section of the script labeled FILE LOCATIONS, there are there
 locations of note.
 
-    $xmlFile - is the incoming xml data
-    $authFile - is the institutional author list tab delimited with the format 'IndexNum LastName FirstName MiddleName'
-    $outputFile - the name of the xml file created by the script
+1. `$xmlFile` - is the incoming xml data
+2. `$authFile` - is the institutional author list tab delimited with
+   the format `IndexNum LastName FirstName MiddleName`
+3. `$outputFile` - the name of the xml file created by the script
 
-$authFile must be created as a tab delimited file with each author
+`$authFile` must be created as a tab delimited file with each author
 given a unique identifier number in the first column. The script can
 not currently identify variations of names with suffixes (Jr, III,
 etc..,) so the author file should include name variations with and
