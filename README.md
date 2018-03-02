@@ -1,5 +1,5 @@
 # Scholarly Tracking Project
-Author: Evan Sprague
+Author: [Evan Sprague](https://github.com/EvanSprague)
 
 The `scholarlyTracking.pl` script uses the perl module `XML::LibXML`.
 To install, use the following terminal commands:
